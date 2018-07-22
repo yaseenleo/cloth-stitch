@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.line{
+    width: 15%;
+    height: 10px;
+    font-size: 2em;
+    height: 8px;
+    background-color:#000;
+    color:#000;
+    border: 0 none;
+}
+/* header */
+.header{
+    /* background: url("https://cdn.shopify.com/s/files/1/2688/7902/files/shopify_d73d41fc-1e71-42ca-91d1-e303356ae3b9_900x.jpg?v=1525868489") no-repeat cover; */
+    background: url(../img/fashion-918446_1280.jpg) no-repeat;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    height: 38em;
+    /* z-index: -1; */
+}
+.header-container{
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    padding-top: 20%
+}
+.header-container-text{
+    position: relative;
+    color: white;
+}
+.btn-container{
+    margin: 0 auto;
+    margin-top: 2em;
+}
+.header-button{
+    position: relative;
+    height: 3.2em;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.header-button:hover{
+    transform: scale(1.08);
+    transition: 1s;
+    position: relative;
+    height: 3.2em;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+/* header end */
+
+/* frame */
+
+.frame{
+padding-top: 7em;
+padding-bottom: 7em;
+}
+
+.frame-img{
+    width: 80%;
+}
+
+.frame-sub-container{
+    position: relative;
+    display: block;
+    margin: 30px;
+    /* margin: 0 auto; */
+}
+
+/* frame end */
+
+/* imagine */
+
+.imagine{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.imagine-bg{
+    background: url(../img/bg-man.jpg) no-repeat;
+    width: 100%;
+    overflow-x: visible;
+    overflow: visible;
+    background-size: cover;                
+    background-repeat:   no-repeat;
+    background-position: center center;
+    /* height: 456px; */
+}
+.imagine-container{
+    position: relative;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.imagine-btn{
+    width: 12em;
+    height: 3.2em;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+
+}
+.imagine-btn:hover{
+    transform: scale(1.08);
+    transition: 1s;
+    width: 12em;
+    height: 3.2em;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+/* imagine end */
+
+/* story */
+.story{
+    margin: 0;
+}
+.story-img{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.story-sub-container{
+    margin: 0 auto;
+    margin-top: 6em;
+}
+
+/* Slogan */
+
+.slogan{
+    background-image: url(../img/business-suit.jpg);
+    width: 100%;
+    height: 400px;
+}
+
+.slogan-text-container{
+    padding-top: 10em;
+}
+
+.slogan-text{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(187, 80, 214);
+}
+
+/* footer */
+/* .footer-text{
+    color: antiquewhite
+} */
+
+.footer-underline{
+    text-decoration: underline;
+}
+/* design */
+.design-img{
+    margin: 0;
+    width: 100%;
+}
+
+/* design end */
+
+
+/* detail */
+.detail{
+    position: relative;
+    display: block;
+    margin-bottom: 5em;
+}
+
+.detail-text-container{
+    margin-top: 7em;
+    margin-bottom: 7em;
+    width: 65%;
+}
+.detail-text{
+    font-size: 20px;
+}
+.detail-border{
+    border: 3px solid orange;
+    width: 70%;
+}
+.detail-img{
+    width: 100%;
+}
+.detail-plan{
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 13em;
+}
+
+/* detail end */
+
+.inspiration{
+    background: url("https://cdn.shopify.com/s/files/1/2688/7902/files/last.jpg?v=1525537370") no-repeat;
+    width: 100%;
+    height: 100%;
+    /* height: 40em; */
+}
+.inspiration-text-container{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10em;
+}
+.inspiration-text-container p{
+    padding-bottom: 3em;
+}
+.sign-btn{
+    width: 8em;
+    height: 3.2em;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.sign-btn:hover{
+    transform: scale(1.08);
+    transition: 1s;
+    width: 8em;
+    height: 3.2em;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+@media(max-width:500px){
+    .inspiration-text-container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+}
+
+/* footer */
+.footer{
+    position: relative;
+    display: block;
+    background-color: #b0aeac;
+    color: white;
+}
+.footer-text-container{
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+.footer-text-container ul>li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+}
+.footer-text-container ul li> a{
+    text-decoration: none;
+    list-style: none;
+    color: white
+}
+.footer-text-container ul li> a:hover{
+    text-decoration: none;
+    list-style: none;
+    color: #dfddd9
+}
+.blank{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.text-underline{
+    text-decoration: underline;
+}
+
+/* footer end */
