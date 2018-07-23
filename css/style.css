@@ -21,13 +21,11 @@ section{
 }
 /* header */
 .header{
-    /* background: url("https://cdn.shopify.com/s/files/1/2688/7902/files/shopify_d73d41fc-1e71-42ca-91d1-e303356ae3b9_900x.jpg?v=1525868489") no-repeat cover; */
     background: url(../img/fashion-918446_1280.jpg) no-repeat;
     position: relative;
     width: 100%;
     background-size: cover;
     height: 38em;
-    /* z-index: -1; */
 }
 .header-container{
     margin: 0 auto;
@@ -238,11 +236,13 @@ padding-bottom: 7em;
     color: white;
     border: 1px solid black;
 }
-@media(max-width:500px){
+@media(max-width:1200px){
     .inspiration-text-container{
         width: 100%;
         margin: 0 auto;
         padding: 0px;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
 }
 
@@ -281,3 +281,57 @@ padding-bottom: 7em;
 }
 
 /* footer end */
+
+.clsscroll  {
+	
+    background-color:#ebebeb;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 1548px;
+    margin-left: -30px;
+    width: 100%;
+}
+
+.slider-img{
+    /* border-radius: 340px; */
+    /* margin-left: 14em; */
+    padding: 50px; 
+    width: 50%; 
+}
+
+	
+::-webkit-scrollbar { 
+display: none; 
+}
+
+nav.navbar.bootsnav {
+    background-color: rgb(255, 255, 255);
+    border: 0 none;
+}
+
+/* navbar */
+
+.navbar-default{
+    position: relative;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+.fa-shopping-bag, .fa-bars{
+    font-size: 25px;
+}
+
+/* sidebar */
+/* .sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #b0aeac;
+    width: 250px;
+    height: 100px;
+    transition: 3s;
+    z-index: 1;
+}
+.active{
+    right: 0;
+} */
