@@ -64,8 +64,8 @@ section{
 /* frame */
 
 .frame{
-padding-top: 7em;
-padding-bottom: 7em;
+padding-top: 40px;
+padding-bottom:40px;
 }
 
 .frame-img{
@@ -320,6 +320,22 @@ nav.navbar.bootsnav {
 .fa-shopping-bag, .fa-bars{
     font-size: 25px;
 }
+@media only screen and (max-width: 767px) {
+   
+    .logo-center{
+        max-width: 140px;
+        margin-top:-60px;
+    }
+    .sidebarBtn{
+        
+    }
+    .text-right{
+        margin-top:-55px;
+        display: inline;
+        overflow: hidden;
+    }
+}
+
 
 /* sidebar */
 /* .sidebar{
