@@ -343,15 +343,15 @@ padding-bottom:40px;
         width: 100%;
     }
 }
-
-/* @media(max-width:506px) {
+/* 
+@media(max-width:506px) {
     .detail-plan{
         text-align: justify;
         margin: 0 auto;
         margin-top: 2em;
-        /* padding-right: 0px; */
     }
-} */
+}
+ */
 
 @media(max-width:523px) {
     .detail-plan > h2{
